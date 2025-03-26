@@ -2,99 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:100,400,300,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:100,400,300,600,700);
 
-/*-----------------------------------------
-
-Table of Contents:
-
-General Layout Style
-Page Title and Breadcrumb    
-Typography
-Page Loading Progress Bar (PACE)
-Page Top Bar
-Sidebar Main Menu 
-Sidebar User Profile
-Sidebar Fixed Bottom Graphs
-Section or Content Box
-Sortable / Drag n Drop panels(section boxes)
-FORM ELEMENTS
-BUTTONS
-ICHECK (Checkboxes and Radios)
-jQery UI Settings
-Modals
-Alert Notifications
-Dropdown menu
-Datepicker, Daterangepicker,  Datetimepicker & Colorpicker
-Progress Bars
-General Animation Settings
-Tooltips
-Popovers
-Nestable list
-Accordions
-Tabs
-UI Grid
-UI Calendar
-Timeline Centered Style
-Timeline Left Aligned Style
-Image Cropper
-Pricing Tables 
-Tocify
-FAQ
-Portfolio gallery
-jVector Maps
-Tables
-Data Tables
-Form Editors
-DropZone File Uploader (Drag n Drop)
-UI Icons
-Team Members
-Login and Registration Page - Transparent Background Style
-Display Code Wrappers
-List Group
-Breadcrumbs
-Pagination
-Labels
-Badges
-UI AJAX TREE
-Flot Charts
-Easy PIE Charts
-Sparkline Charts
-Page Layout - Sidebar, Chat API toggle interactions
-COLLAPSED MENU
-CHAT API
-CHAT API Windows
-Mailbox
-Rickshaw Graph Charts
-Dashboard
-Notification Widget (Dashboard)
-Error pages 404, 505
-UI Sliders
-Typeahead Suggestions
-UI Lockscreen
-Form Validations
-Form Wizard
-Carousel
-Visibility Animation in Elements (Viewport)
-Widget - Tile Counter
-Widget - Tile Progress widget 
-Navigation Bars
-Search page
-Blogs
-Invoice
-Logo
-Profile Page
-Widget - To Do Task List
-Widget - Social Media
-Widget - Blogs
-Widget - Sparkline Graphs
-Widget - Vector Map
-Widget - Weather
-Widget - User Profile Tile
-Form Spinners
-UI Dropdowns
-------------------------------------------*/
-/*----------------------------------------
-  General Layout Style
-------------------------------------------*/
 
 html {
     font-size: 100%;
@@ -4627,14 +4534,7 @@ code {
 .page-topbar.chat_shift .quick-area .pull-right {
     margin-right: 60px !important;
 }
-/*.page-topbar.chat_shift .chat-toggle-wrapper{
-  background-color: #333333;
-}
 
-.page-topbar .quick-area .pull-right .info-menu{
-  padding: 0px;
-}
-*/
 
 .page-topbar.sidebar_shift .logo-area {
     width: 60px;
@@ -4703,31 +4603,7 @@ code {
     height: 300px;
     bottom: 0px !important;
 }
-/*--------------------------------------------
-  COLLAPSED MENU
----------------------------------------------*/
-/*
-.page-sidebar.chat_shift .wraplist, .page-sidebar.chat_shift .profile-info,
-.page-sidebar.collapseit .wraplist, .page-sidebar.collapseit .profile-info{
-  visibility: hidden;
-  margin-left:-300px !important;
-}
 
-.page-sidebar .collapse-wraplist{
-  margin-left:-300px;
-  visibility: hidden;
-}
-
-.page-sidebar.chat_shift .collapse-wraplist,
-.page-sidebar.collapseit .collapse-wraplist{
-  margin-left:0px;
-  visibility: visible;
-  background-color: #FDB45C;
-  height: 598px;
-  width:60px;
-  float:right;
-}
-*/
 
 .page-sidebar.chat_shift .wraplist, .page-sidebar.collapseit .wraplist {
     background-color: rgba(50, 50, 58, 1.0);
@@ -7340,52 +7216,3 @@ border-left: 3px solid transparent;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/*
-.bg-muted{ background: #eaeaea; padding: 3px 8px;}
-.bg-primary{ background: rgba(31,181,172,1); padding: 3px 8px; color: #ffffff;} #1fb5ac
-.bg-info{ background: rgba(35,183,229,1.0); padding: 3px 8px; color: #ffffff;}
-.bg-warning{ background: #FDB45C; padding: 3px 8px; color: #ffffff;}
-.bg-danger{ background: rgba(240,80,80,1.0); padding: 3px 8px; color: #ffffff;}
-.bg-success{ background: rgba(102,189,120,1.0); padding: 3px 8px; color: #ffffff;}
-.bg-purple{ background: rgba(153,114,181,1.0); padding: 3px 8px; color: #ffffff;} #9972b5
-.bg-orange{ background: rgba(250,133,100,1.0); padding: 3px 8px; color: #ffffff;} #fa8564
-.bg-secondary{ background: rgba(169,169,169,1.0); padding: 3px 8px; color: #555555;}
-
-#FDB45C - #FDB45C
-*/
-/*
-.screen-type {
-    display: block;
-    width: 30px;
-    height: 30px;
-    padding: 3px 8px;
-    color: #ffffff;
-    position: fixed;
-    z-index: 9999999999999999999999999;
-    top: 0px;
-    right: 0px;
-    font-size: 12px;
-}
-.screen-type.visible-xs {
-    background-color: rgba(102, 189, 120, 0.7);
-}
-.screen-type.visible-sm {
-    background-color: rgba(35, 183, 229, 0.7);
-}
-.screen-type.visible-md {
-    background-color: rgba(240, 80, 80, 0.7);
-}
-.screen-type.visible-lg {
-    background-color: rgba(153, 114, 181, .7);
-}
-*/
