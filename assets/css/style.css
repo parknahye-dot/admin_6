@@ -899,15 +899,7 @@ section.box .actions i {
 section.box .actions i:hover {
     color: #999999;
 }
-section .content-body.collapsed {
-    /*display: none;*/
-    /*  height: 0px !important;
-  overflow: hidden;
-  max-height: 0px !important;
-  padding: 0px 30px !important;*/
-}
-/*--------ui panels section for different colors--------*/
-/*transparent*/
+
 
 section.box.transparent {
     background-color: transparent;
@@ -3241,12 +3233,6 @@ blockquote.orange{ border-color: rgba(250,133,100,1.0); }
     background-color: #0051BA;
     color: #ffffff !important;
 }
-/*.tocify li.tocify-item.active, 
-    .tocify .nav li.tocify-item:hover{
-      padding-left: 10px;
-      transition: 200ms;
-    }*/
-
 .tocify li.tocify-item {
     background-color: #fafafa;
     margin-bottom: 1px;
@@ -3956,8 +3942,6 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
     -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
     -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
-    /* text-shadow: 1px 1px 1px rgba(200,200,200,.1); */
-    
     font-weight: 500;
 }
 .loginpage form .input, .loginpage input[type=text] {
